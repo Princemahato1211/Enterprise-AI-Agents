@@ -1,0 +1,9 @@
+ipykernel
+jupyter
+python-dotenv
+pydantic
+pinecone
+anthropic
+tavily-python
+requests 
+truststore
