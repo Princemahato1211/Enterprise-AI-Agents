@@ -7,3 +7,13 @@ anthropic
 tavily-python
 requests 
 truststore
+
+langgraph==1.1.10
+langchain-core==1.6.1
+langchain-community==0.4.2
+langchain-pinecone==0.2.13
+langchain-pinecone==0.2.13
+langchain-text-splitters==1.1.2
+langchain_huggingface
+sentence_transformers
+pymupdf

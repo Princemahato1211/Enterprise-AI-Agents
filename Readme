@@ -1,0 +1,5 @@
+Question → [Router] ─┬─ direct → [Direct Answer] → END
+                     └─ kb ───→ [KB Retrieve] → [Grader] ─┬─ sufficient → [Generate Answer] → END
+                                                          └─ insufficient → [Web Search] → [Grader] ─┬─ sufficient → [Generate Answer] → END
+                                                                                                     └─ insufficient and retries < 3 → [Web Search] (loop)
+                                                                                                     └─ retries exhausted → [Generate Answer with best-effort / "couldn't find"] → END
