@@ -11,3 +11,4 @@ pymupdf
 pinecone
 langchain-pinecone
 beautifulsoup4
+langgraph
